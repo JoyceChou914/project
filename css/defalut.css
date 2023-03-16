@@ -1,0 +1,57 @@
+@import url(reset.css);
+
+body{
+    font-size:'Noto Sans TC', sans-serif; 
+
+}
+.top{ 
+    margin: 0 auto;
+    display:flex;
+    width: 1200px;
+    /* position: sticky;     */
+    top:0;
+    justify-content: space-between;
+    z-index: 100;
+    background-color: WHITE;    
+}   
+
+
+.top ul{
+    width: 800px;  
+    display:flex;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.top li{
+    flex-grow: 1;
+    text-align: center;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top img{
+    width:150px;
+    height:auto;     
+}
+
+.top li a{    
+    text-decoration-line:none;
+}
+.top li a:hover{
+    color: #9CDB95;
+    border-bottom:3px solid #9CDB95;
+} 
+
+footer{
+    color: rgb(22, 22, 23);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(133, 190, 133);
+}  
+
+
+

@@ -1,0 +1,136 @@
+
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+    outline: 1px solid pink;
+    
+ 
+}
+
+/*--------拱北殿------------------*/
+.temple h1{
+    /* border: 5px solid red; */
+    line-height: 1.5px;
+    font-size: 30px;
+    background-image: linear-gradient(#9CDB95,#CEF9AA);
+    padding:20px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    margin: 10px 0;
+}
+
+
+.temple li{
+    display: flex;
+
+}
+
+
+.temple img{
+    width: 500px;
+    height: 450px;
+
+}
+
+.temple p{
+    background-color:#BAC1E0;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1.8;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+/*--------康誥溪步道( 賞櫻 )---------------*/
+.blossom h1{
+    /* border: 5px solid red; */
+    line-height: 1.5px;
+    font-size: 30px;
+    background-image: linear-gradient(#9CDB95,#CEF9AA);
+    color: yellowgreen;
+    padding:20px;
+    width: 300px;
+    text-align: center;
+    color: black;
+    margin: 10px 0;
+}
+.blossom li{
+    display: flex;
+
+}
+.blossom img{
+    width: 500px;
+    height: 450px;
+}
+.blossom p{    
+    background-color:#BAC1E0;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1.8;
+    margin-right: 10px;
+}
+
+
+/*--------星光橋--------------*/
+
+
+.bridge h1{
+    /* border: 5px solid red; */
+    line-height: 1.5px;
+    font-size: 30px;
+    background-image: linear-gradient(#9CDB95,#CEF9AA);
+    color: yellowgreen;
+    padding:20px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    margin: 10px 0;
+}
+.bridge li{
+    display: flex;
+}
+
+.bridge img{
+    width: 500px;
+    height: 450px;
+}
+.bridge p{    
+    background-color:#BAC1E0;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1.8;
+    margin-left: 10px;
+}
+
+
+/*-------五堵鐵馬道-------------*/
+
+.bicycle h1{
+    /* border: 5px solid red; */
+    line-height: 1.5px;
+    font-size: 30px;
+    background-image: linear-gradient(#9CDB95,#CEF9AA);
+    color: yellowgreen;
+    padding:20px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    margin: 10px 0;
+}
+.bicycle li{
+    display: flex;
+}
+.bicycle img{
+    width: 500px;
+    height: 450px;
+}
+.bicycle p{    
+    background-color:#BAC1E0;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1.8;
+    margin-left: 10px;
+}

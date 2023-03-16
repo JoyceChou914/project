@@ -1,0 +1,134 @@
+
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+    outline: 1px solid pink;    
+}
+
+
+/*--------------南港老爺行旅-------------------*/
+
+.master h1{
+    line-height: 1.5px;
+    font-size: 30px;
+    background-image: linear-gradient(#9CDB95,#CEF9AA);
+    padding:20px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    margin: 10px 0;
+}
+
+.master li{
+    display: flex;
+}
+
+.master img{
+    width: 500px;
+    height: 450px;
+}
+
+.master p{
+    background-color:#BAC1E0;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1.8;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+/*----------------富信大飯店---------------------*/
+
+
+
+.fuxin h1{
+    line-height: 1.5px;
+    font-size: 30px;
+    background-image: linear-gradient(#9CDB95,#CEF9AA);
+    padding:20px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    margin: 10px 0;
+}
+
+.fuxin li{
+    display: flex;
+}
+.fuxin img{    
+    width: 500px;
+    height: 450px;
+}
+.fuxin p{
+    background-color:#BAC1E0;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1.8;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+/*----------------薇星旅館--------------------*/
+
+.vista h1{
+    line-height: 1.5px;
+    font-size: 30px;
+    background-image: linear-gradient(#9CDB95,#CEF9AA);
+    padding:20px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    margin: 10px 0;
+}
+
+.vista li{
+    display: flex;
+}
+.vista img{
+    width: 500px;
+    height: 450px;
+}
+.vista p{
+    background-color:#BAC1E0;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1.8;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+/*--------------洛碁大飯店-南港館-------------------*/
+
+.yuan h1{
+    line-height: 1.5px;
+    font-size: 30px;
+    background-image: linear-gradient(#9CDB95,#CEF9AA);
+    padding:20px;
+    width: 250px;
+    text-align: center;
+    color: black;
+    margin: 10px 0;
+}
+.yuan li{
+    display: flex;
+}
+.yuan img{
+    width: 500px;
+    height: 450px;
+}
+.yuan p{
+    background-color:#BAC1E0;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1.8;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+
+
+

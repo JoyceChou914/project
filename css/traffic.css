@@ -1,0 +1,32 @@
+
+.wrapper{
+    margin:auto;
+    /* vertical-align: center; */
+    width: 1200px;
+    outline: 1px solid pink;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+
+/*--------google地圖------------*/
+.map{
+    margin: 0 auto;
+}
+
+.map h1{
+    font-size: 30px;
+    padding-top: 200px;
+}
+.map iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*--------開車資訊-----------*/
+.car h2{
+    background-image: linear-gradient(#9CDB95,#CEF9AA);
+
+}
