@@ -1,6 +1,5 @@
-
-.wrapper{
-    margin:auto;
+.wrapper {
+    margin: auto;
     /* vertical-align: center; */
     width: 1200px;
     outline: 1px solid pink;
@@ -11,22 +10,72 @@
 
 
 /*--------google地圖------------*/
-.map{
+.map {
     margin: 0 auto;
+    height: 250px;
+    width: auto;
+    background-image: url(../image/rainning\ 1.png);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
 }
 
-.map h1{
+.map h1 {
     font-size: 30px;
-    padding-top: 200px;
-}
-.map iframe{
-    display: block;
     margin: 0 auto;
+    text-align: center;
+
+
+}
+
+iframe {
+    display:block;
+    margin:0 auto;
 }
 
 
 /*--------開車資訊-----------*/
-.car h2{
-    background-image: linear-gradient(#9CDB95,#CEF9AA);
+.car{
+    padding: 10px;
 
 }
+
+.car h1{
+    font-size: 30px;
+    padding: 10px;
+
+
+}
+
+
+.car h2 {
+
+    margin:20px 20px 10px 0;
+    font-size: 18px;
+    height: auto;
+    width: 350px;
+
+}
+
+
+/*--------大眾運輸-----------*/
+
+.mrt{
+    padding: 10px;
+}
+
+.mrt h1{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.mrt h2{
+    margin:20px 20px 10px 0;
+    font-size: 20px;
+    height: auto;
+    width: 350px;
+}
+
+
+

@@ -66,6 +66,7 @@
     text-align: center;
     color: black;
     margin: 10px 0;
+
 }
 
 .ming li{
@@ -77,6 +78,8 @@
 .ming img{
     width: 500px;
     height: 450px;
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
 .ming p{
@@ -85,8 +88,9 @@
     font-size: 20px;
     padding: 30px;
     line-height: 1.8;
-    margin-left: 10px;
-
+    margin-left: 10px;   
+    flex-basis: 0;
+    flex-grow: 1;
 } 
 
 /*------------日據後期-----------------*/
@@ -108,8 +112,10 @@
     display:flex;
 }
 .japanese img{
-    width: 600px;
-    height: 450px;
+    /* width: 600px; */
+    /* height: 450px; */
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
 
@@ -121,6 +127,8 @@
     line-height: 1.8;
     margin:  0 10px;
     margin-left:1px;
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
 
@@ -146,6 +154,8 @@
 .now img{
     width: 600px;
     height: 450px;
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
 .now p{
@@ -154,6 +164,8 @@
     font-size: 20px;
     padding: 20px;
     line-height: 1.8;
+    flex-basis: 0;
+    flex-grow: 1;
 
 }
 
