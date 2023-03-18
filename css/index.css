@@ -1,11 +1,11 @@
-/* 其他頁面不能有reset CSS */
+
 
 /*---------整頁部分-----------------------*/
 
 .wrapper{
     margin: 0 auto;
     width: 1200px;
-    /* outline: 1px solid pink; */
+
 }
 
 /*---------輪播圖-------------------------*/
@@ -59,21 +59,23 @@
 }
 
 
-.middle h1{
+.middle h3{
     font-weight: bold;
     word-break: keep-all;
     letter-spacing: 30px;
     padding: 10px;
     margin-left: 150px;
+    font-size: 30px;
 }
 
-.middle h2{
-    /* outline: 1px solid green; */
+.middle h4{
+
     text-align: right;
     padding: 10px;
     margin-right: 150px;
     letter-spacing: 30px;
     font-weight: bold;
+    font-size: 35px;
 }
 
 
@@ -82,7 +84,6 @@
     background-color:#CEF9AA;
     border-radius: 20px;
     box-sizing: border-box;
-    /* outline: 2px solid red; */
     text-align: center;
     width: 1200px;  
     
@@ -117,7 +118,6 @@
 
 .xizhi{
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
     margin: 10px 0 0 0;
 }
@@ -135,7 +135,6 @@
 
 .recommend li{
     display: flex;
-
     width: 483px;
     margin: auto;
 }

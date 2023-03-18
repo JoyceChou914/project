@@ -2,7 +2,6 @@
 .wrapper{
     margin: 0 auto;
     width: 1200px;
-    outline: 1px solid pink;
     
 }
 /*-----------阿義炸雞------------------------*/
@@ -25,19 +24,18 @@
 
 .chicken img{
     width:0px;
-    /* height: 450px; */
-    flex-basis: 0;
+    flex-basis: 60px;
     flex-grow: 1;
 }
 
 .chicken p{
     background-color:#BAC1E0;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 20px;
     padding: 30px;
     line-height: 1.8;
     vertical-align: middle;
-    flex-basis: 0;
+    flex-basis: 0px;
     flex-grow: 1;
 } 
 
@@ -60,20 +58,19 @@
 
 .dumplings img{
     width: 0px;
-    /* height: 450px; */
-    /* margin-left: 20PX; */
-    flex-basis: 0;
+    flex-basis: 60px;
     flex-grow: 1;
-    margin-right: 10px;
+
+
 }
 
 
 .dumplings p{
     background-color:#BAC1E0;
+    margin-left: 10px;   
     font-size: 20px;
     padding: 30px;
     line-height: 1.8;
-    vertical-align: middle;
     flex-basis: 0;
     flex-grow: 1;
 } 
@@ -96,19 +93,22 @@
 }
 
 .noodles  img{
-    width: 600px;
-    height: 450px;
+    width: 0px;
+    flex-basis: 60px;
+    flex-grow: 1;
 
     
 }
 
 .noodles p{
+
     background-color:#BAC1E0;
-    margin-left: 20px;
+    margin-left: 10px;   
     font-size: 20px;
     padding: 30px;
     line-height: 1.8;
-    vertical-align: middle;
+    flex-basis: 0;
+    flex-grow: 1;
 }
 /*----------隱家茶寮-----------------------*/
 .matcha h1{
@@ -127,17 +127,20 @@
 }
 
 .matcha img{
-    width: 600px;
-    height: 450px;
+    width:0px;
+    flex-basis: 60px;
+    flex-grow: 1;
 }
 
 .matcha p{
     background-color:#BAC1E0;
+    margin-left: 10px;   
     font-size: 20px;
-    padding: 50px;
+    padding: 30px;
     line-height: 1.8;
-    vertical-align: middle;
-    margin-RIGHT: 30PX;
+    flex-basis: 0;
+    flex-grow: 1;
+
 } 
 
 /*----------汐止街仔米粉湯-----------------------*/
@@ -150,7 +153,7 @@
     font-size: 25px;
     background-image: linear-gradient(#9CDB95,#CEF9AA);
     padding:20px;
-    width: 200px;
+    width: 220px;
     text-align: center;
     color: black;
     margin: 20px 0;
@@ -161,16 +164,20 @@
 }
 
 .rice img{
-    width: 600px;
-    height: 450px;
+    width: 0px;
+    flex-basis: 60px;
+    flex-grow: 1;
 }
 
 
 .rice p{
-    background-color:#BAC1E0;
-    margin-left: 20px;
-    font-size: 20px;
-    padding: 30px;
-    line-height: 1.8;
-    vertical-align: middle;
+   background-color:#BAC1E0;
+   margin-left: 10px;
+   font-size: 20px;
+   padding: 30px;
+   line-height: 1.8;
+   margin:  0 10px;
+   margin-left:1px;
+   flex-basis: 0;
+   flex-grow: 1;
 }

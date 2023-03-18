@@ -1,13 +1,12 @@
 .wrapper{
     margin: 0 auto;
     width: 1200px;
-    outline: 1px solid pink;
     line-height: 2;
+    padding-bottom: 10px;
 }
 /*------時間軸線---------------------------*/
 .schedule{
     padding-top: 100px;
-
     text-align: center;
 }
 
@@ -24,40 +23,34 @@
 }
 
 .year h2{
-    /* border: 1px solid yellow; */
     margin-left:242px ;
 }
 
 .year h3{
-    /* border: 1px solid yellow; */
     margin-left:213px ;
 }
 .time{
     display: flex;
     justify-content:space-between; 
-    /* border: 1px solid rgb(71, 16, 235); */
     width: 1200px;
     text-align: center;
 } 
 
 .time h4{
-    /* border: 1px solid green; */
+
     margin-left:220px ;
 }
 
 .time h5{
-    /* border: 1px solid green; */
     margin-left :4px;
 }
 .time h6{
-    /* border: 1px solid green; */
     margin-right:305px;
 }
 
 
 /*------明清後期---------------*/
 .ming h1{
-
     line-height: 1.5px;
     font-size: 30px;
     background-image: linear-gradient(#9CDB95,#CEF9AA);
@@ -66,7 +59,6 @@
     text-align: center;
     color: black;
     margin: 10px 0;
-
 }
 
 .ming li{
@@ -76,19 +68,19 @@
 
 
 .ming img{
-    width: 500px;
-    height: 450px;
-    flex-basis: 0;
+    width: 0px;
+    flex-basis: 60px;
     flex-grow: 1;
 }
 
 .ming p{
     background-color:#BAC1E0;
-    margin-left: 30px;
+     margin-left: 10px;   
+
     font-size: 20px;
     padding: 30px;
     line-height: 1.8;
-    margin-left: 10px;   
+
     flex-basis: 0;
     flex-grow: 1;
 } 
@@ -112,16 +104,15 @@
     display:flex;
 }
 .japanese img{
-    /* width: 600px; */
-    /* height: 450px; */
-    flex-basis: 0;
+    width: 0px;
+    flex-basis :60px;
     flex-grow: 1;
 }
 
 
 .japanese p{
     background-color:#BAC1E0;
-    margin-left: 30px;
+    margin-left: 10px;
     font-size: 20px;
     padding: 30px;
     line-height: 1.8;
@@ -134,11 +125,9 @@
 
 /*--------光復後時期-------------*/
 .now h1{
-
     line-height: 1.5px;
     font-size: 30px;
     background-image: linear-gradient(#9CDB95,#CEF9AA);
-
     padding:20px;
     width: 200px;
     text-align: center;
@@ -152,9 +141,8 @@
 }
 
 .now img{
-    width: 600px;
-    height: 450px;
-    flex-basis: 0;
+    width: 0px;
+    flex-basis: 60px;
     flex-grow: 1;
 }
 
@@ -162,11 +150,10 @@
     background-color:#BAC1E0;
     margin-left: 10px;
     font-size: 20px;
-    padding: 20px;
+    padding: 30px;
     line-height: 1.8;
     flex-basis: 0;
     flex-grow: 1;
-
 }
 
 
