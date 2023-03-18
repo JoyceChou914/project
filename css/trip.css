@@ -72,10 +72,13 @@
     flex-grow: 1;
 
 
+
 }
 
 
 /*--------星光橋--------------*/
+
+
 
 
 .bridge h1{
@@ -106,6 +109,7 @@
     line-height: 1.8;
     flex-basis: 0;
     flex-grow: 1;
+    padding-top: 100px;
 
 }
 
@@ -113,7 +117,6 @@
 /*-------五堵鐵馬道-------------*/
 
 .bicycle h1{
-
     line-height: 1.5px;
     font-size: 30px;
     background-image: linear-gradient(#9CDB95,#CEF9AA);
@@ -123,15 +126,20 @@
     text-align: center;
     color: black;
     margin: 10px 0;
+
 }
 .bicycle li{
     display: flex;
+
 }
 .bicycle img{
     width: 0px;
     flex-basis: 60px;
     flex-grow: 1;
+
 }
+ 
+
 .bicycle p{    
     background-color:#BAC1E0;
     margin-left: 10px;
@@ -140,5 +148,5 @@
     line-height: 1.8;
     flex-basis: 0;
     flex-grow: 1;
- 
+    padding-top: 100px;
 }
