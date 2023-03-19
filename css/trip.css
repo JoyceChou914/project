@@ -94,22 +94,51 @@
     display: flex;
 }
 
+
 .bridge img{
     width: 0px;
     flex-basis: 0px;
     flex-grow: 1;
 }
 .bridge p{    
-    background-color:#BAC1E0;
+    /* background-color:#BAC1E0;
     margin-left: 10px;
     font-size: 20px;
     padding: 30px;
     line-height: 1.8;
     flex-basis: 0;
     flex-grow: 1;
-    padding-top: 100px;
+    padding-top: 100px; */
+
+
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1.8;
+    flex-grow: 1;
 
 }
+.bridge2{
+    flex-basis: 0px;
+    flex-grow: 1;
+    display: flex;
+    background-color:#BAC1E0;    
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*-------五堵鐵馬道-------------*/
@@ -143,7 +172,6 @@
     font-size: 20px;
     padding: 30px;
     line-height: 1.8;
-
     flex-grow: 1;
 
 }
