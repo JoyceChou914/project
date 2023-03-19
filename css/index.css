@@ -1,13 +1,10 @@
 
 
 /*---------整頁部分-----------------------*/
-
 .wrapper{
     margin: 0 auto;
     width: 1200px;
-
 }
-
 /*---------輪播圖-------------------------*/
 
 .out{
@@ -65,7 +62,7 @@
     letter-spacing: 30px;
     padding: 10px;
     margin-left: 150px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .middle h4{
